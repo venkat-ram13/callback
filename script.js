@@ -16,10 +16,10 @@ var txt = document.createElement("div");
                     setTimeout(()=> {
                         console.log(6);
                         txt.innerHTML = 6;
-                        setTimeout(function() {
+                        setTimeout(()=>{
                             console.log(5);
                             txt.innerHTML = 5;
-                            setTimeout(function() {
+                            setTimeout(()=>{
                                 console.log(4);
                                 txt.innerHTML = 4;
                                 setTimeout(()=> {
